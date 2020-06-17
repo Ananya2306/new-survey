@@ -18,8 +18,8 @@ class Game {
 
     start(){
         if(gameState === 0){
-            player = new Player();
-            player.getCount();
+            voter = new Voter();
+            voter.getCount();
             form = new Form();
             form.display();  
         }
