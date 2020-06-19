@@ -1,4 +1,5 @@
-var canvas,database;
+var canvas;
+var database;
 
 var gameState = 0;
 var voterCount;
@@ -6,7 +7,7 @@ var voterCount;
 var form,game,voter;
 
 function setup(){
-  canvas = createCanvas(1000,500);
+  canvas = createCanvas(1010,500);
   database = firebase.database();
   game = new Game();
   game.getState();
